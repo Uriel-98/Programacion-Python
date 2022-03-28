@@ -11,7 +11,6 @@ while numero_random != numero_elegido and intentos != 0:
     numero_random  = random.choice(numeros)
     numero_elegido = int(input("\nElija un número del 0 al 25, solo tiene 5 intentos: "))
     intentos -= 1
-    
 if intentos == 0:
     print(f"\nTe quedaste sin intentos!\nEl número era {numero_random}")
 else:
