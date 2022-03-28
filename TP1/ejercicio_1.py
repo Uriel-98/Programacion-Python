@@ -12,8 +12,9 @@ aprobado_o_no = []
 
 
 while entrar != 0:
-    materias.append(input("\nIngrese las materias que esta cursando: "))
-    if len(materias) >= 5:
+    materias.append(input("\nIngrese las materias que esta cursando\nPara continuar escriba continue en la terminal.\nMaterias:"))
+    if len(materias) >= 5 and "continue" in materias:
+        materias.remove("continue")
         while entrar > 1:
             if len(materias) == 5:
                 for parciales1 in range(3):
