@@ -1,3 +1,4 @@
+# Ejercicio 3 - Uriel Diaz
 
 import random
 from time import sleep

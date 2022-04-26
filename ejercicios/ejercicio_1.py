@@ -1,4 +1,4 @@
-#1) Desarrollar un software que permita ingresar números. Por cada ingreso se debe mostrar el mayor, menor, el total y el promedio hasta el momento.
+# Ejercicio 1 - Uriel Diaz
 
 numeros = []
 salir = 1

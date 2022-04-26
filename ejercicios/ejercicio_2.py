@@ -1,5 +1,4 @@
-#Escribir un código que muestre en orden alfabético las palabras ingresadas.
-
+# Ejercicio 2 - Uriel Diaz
 palabras = []
 salir = 1
 
