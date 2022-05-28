@@ -1,4 +1,4 @@
-from asyncio import selector_events
+
 from funciones.mostrar_vehiculos import *
 from funciones.vehiculos import *
 from funciones.usuarios import *
@@ -52,6 +52,7 @@ def agregar_detalles(vehiculo, num_vehiculo, detalle, permiso):
             if auto.numero == num_vehiculo:
                 auto.detalle = detalle
                 print(f"Los nuevos detalles del vehiculo son:\n----------\ndetalles: {auto.detalle}(modificado)\n----------")
+                break
     elif vehiculo == 2:
         mostrar_motos(permiso)
         for moto in lista_motos:
