@@ -1,6 +1,5 @@
 
 import tkinter
-from turtle import back
 
 lista_botones = [[1,2,3, "Borrar"],[4,5,6,"/"],
               [7,8,9,'*',],[".",0,"-","+"]] 
