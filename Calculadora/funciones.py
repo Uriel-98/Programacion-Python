@@ -128,5 +128,3 @@ def ventana_principal():
     label_numeros.grid(column=3, row=0)
 
     ventana.mainloop()
-
-ventana_principal()
